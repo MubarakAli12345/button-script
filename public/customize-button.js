@@ -4,7 +4,7 @@
     if (!window.location.pathname.includes('/products/')) return;
 
     const productForm = document.querySelector('form[action^="/cart/add"]');
-    if (!productForm) return;
+    // if (!productForm) return;
 
     // Create the button
     const btn = document.createElement('button');
