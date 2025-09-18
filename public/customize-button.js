@@ -1,5 +1,6 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
+    console.log("Working fine")
     // Only run on product pages
     if (!window.location.pathname.includes('/products/')) return;
 
